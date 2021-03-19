@@ -1,5 +1,5 @@
 body {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Poppins', sans-serif;
   color: #3a3d3b;
 }
 
@@ -26,6 +26,7 @@ body {
 #name {
   margin: 0px;
   padding: 0px;
+  font-weight: 700;
 }
 
 #handle {
