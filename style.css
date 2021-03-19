@@ -18,17 +18,17 @@ body {
   border-radius: 50%;
 }
 
-.contacts {
-  text-decoration: none;
-  color: #3a3d3b;
-}
-
 #name {
   margin: 0px;
   padding: 0px;
   font-weight: 700;
 }
 
-#handle {
-  color: gray;
+.contacts {
+  text-decoration: none;
+  color: #3a3d3b;
+}
+
+.contacts:hover {
+  color: #7eca9c;
 }
