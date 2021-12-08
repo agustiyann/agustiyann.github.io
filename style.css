@@ -4,11 +4,8 @@ body {
   background-color: #F1E6DC;
 }
 
-.my-card {
-  left: 50%;
-  transform: translate(-50%, 0%);
-  position: absolute;
-  box-sizing: border-box;
+lottie-player {
+    margin: 0 auto;
 }
 
 .img-profile {
