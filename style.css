@@ -1,20 +1,19 @@
 body {
   font-family: 'Poppins', sans-serif;
   color: #3a3d3b;
+  background-color: #F1E6DC;
 }
 
 .my-card {
-  width: 80%;
-  top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 0%);
   position: absolute;
   box-sizing: border-box;
 }
 
 .img-profile {
-  width: 150px;
-  height: 150px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
 }
 
