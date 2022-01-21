@@ -5,7 +5,7 @@ body {
 }
 
 .jumbotron {
-  background-image: url("totoro.gif");
+  background-image: url("./totoro.gif");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
