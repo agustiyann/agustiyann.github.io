@@ -4,8 +4,20 @@ body {
   /* background-color: #F1E6DC; */
 }
 
+.jumbotron {
+  background-image: url("totoro.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.jumbotron p {
+  color: white;
+  text-align: center;
+}
+
 lottie-player {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .img-profile {
