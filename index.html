@@ -2,6 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <script>
+      (function() {
+        var saved = localStorage.getItem('theme');
+        var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (saved === 'dark' || (!saved && prefersDark)) {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Agustiyansyah Syam · Software Engineer</title>
@@ -9,8 +18,8 @@
     <meta name="author" content="Agustiyansyah Syam" />
     <meta property="og:site_name" content="Agustiyansyah Syam" />
     <meta property="og:locale" content="en_US" />
-    <script type="module" crossorigin src="/assets/index-CrbXdreE.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DEqth2YJ.css">
+    <script type="module" crossorigin src="/assets/index-7quwLZCk.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CoEDM6n2.css">
   </head>
   <body>
     <div id="root"></div>
