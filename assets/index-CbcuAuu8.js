@@ -316,7 +316,7 @@ Property wrappers are a versatile and powerful feature in Swift, enabling you to
 Whether you're working on SwiftUI views, Combine publishers, or any other Swift project, property wrappers offer a valuable toolset for building robust and maintainable applications. Embrace the power of property wrappers and elevate your Swift programming experience to new heights.
 `,K3=`---
 date: 2026-04-29 13:33
-description: From iOS Engineer to Software Engineer.
+description: From iOS Engineer to Full Stack Software Engineer.
 tags: software engineer, career growth
 image: /images/blog/from-ios-engineer-to-software-engineer-becoming-more-than-just-a-developer.webp
 ---
@@ -367,7 +367,7 @@ That is the difference between task completion and impact.
 
 Anyone can close tickets. Strong engineers solve meaningful problems.
 
-## How to Grow Into a Software Engineer
+## How to Grow Into a Full Stack Software Engineer
 
 You do not need to know everything. You need to be willing to learn anything necessary.
 
