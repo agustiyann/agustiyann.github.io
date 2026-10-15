@@ -3,6 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <script>
+      // Visitors who picked Indonesian land on /id when they open the site root. This runs before the
+      // prerendered English home paints. The key matches LOCALE_STORAGE_KEY in src/i18n/locale.ts.
+      (function() {
+        try {
+          if (location.pathname === '/' && localStorage.getItem('locale') === 'id') location.replace('/id');
+        } catch (e) {}
+      })();
+    </script>
+    <script>
       (function() {
         var saved = localStorage.getItem('theme');
         var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -17,9 +26,8 @@
     <meta name="description" content="Learn data structures, algorithms, design patterns and OOP with interactive visualizations and code examples in Swift, Kotlin, TypeScript, Python and Java." />
     <meta name="author" content="Agustiyansyah Syam" />
     <meta property="og:site_name" content="Agus Dev Notes" />
-    <meta property="og:locale" content="en_US" />
-    <script type="module" crossorigin src="/assets/index-ChNRvOCC.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BCi_UpB0.css">
+    <script type="module" crossorigin src="/assets/index-DAAO2Jm3.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BoxB3JaJ.css">
   </head>
   <body>
     <div id="root"></div>
